@@ -1,0 +1,25 @@
+.mensajeError {
+    color: #fff;
+    background-color: #f44336;
+    border-left: 6px solid #d32f2f;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.mensajeError::before {
+    content: '⚠️ ';
+    margin-right: 5px;
+}
+
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+}

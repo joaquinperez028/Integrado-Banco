@@ -1,0 +1,194 @@
+*{
+margin:0px;
+padding: 0px;
+
+}
+
+body {
+font-family: Arial, sans-serif;
+min-height: 100vh;
+
+
+
+}
+
+#we{
+    background-image: url(http://localhost/flecca/img/i.png);
+    background-size: cover;
+}
+
+nav {
+ 
+    padding: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    background-color: #268F3A;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #1e7030; 
+}
+
+
+.cuenta {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+label {
+    font-weight:bold;
+    color: #000000;
+}
+
+input[type="text"] {
+    width: 25%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #268F3A;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    background-color: #268F3A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #1f7e30; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #268F3A;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.transfe {
+    background-color: #f0f0f0;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 40px auto; 
+    box-shadow: none;
+}
+
+
+.transfe form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: none;
+}
+
+
+.transfe form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.transfe form input[type="number"], 
+.transfe form select, 
+.transfe form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #333; 
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.transfe form input[type="number"]:focus, 
+.transfe form select:focus, 
+.transfe form textarea:focus {
+    border-color: #268F3A;
+    outline: none;
+}
+
+
+.transfe form input[type="submit"] {
+    background-color: #268F3A;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.transfe form input[type="submit"]:hover {
+    background-color: #1e7030;
+
+.transfe form textarea {
+    height: 100px;
+    resize: vertical;
+}
+}
+
+.Well {
+    display: flex;              
+    justify-content: center;     
+    align-items: flex-start;     
+    min-height: 100vh;          
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.Well h1 {
+    font-size: 3rem;            
+    color: #268F3A;              /* Color verde */
+    text-align: center;          /* Centra el texto */
+    font-weight: bold;           /* Negrita para el texto */
+    margin: 0;                   /* Sin márgenes */
+    padding: 20px;               /* Espaciado interno */
+    border-radius: 8px;         /* Bordes redondeados */
+    background-color: white;     /* Fondo blanco para el texto */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra para el texto */
+}
+
