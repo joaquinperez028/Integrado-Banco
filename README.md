@@ -18,8 +18,8 @@ Este proyecto implementa un sistema de transacciones bancarias para una platafor
 - `/views/`: Son los archivos HTML que representan la interfaz de usuario.
 
 ## Instalación
-1. Clonar el repositorio: `git clone https://github.com/tu-proyecto.git`
-2. Configurar la base de datos en MySQL: Ejecutar el script `database.sql` para crear las tablas `usuarios`, `cuentas`, y `transacciones`.
+1. Clonar el repositorio: git clone https://github.com/tu-proyecto.git
+2. Configurar la base de datos en MySQL: Ejecutar el script database.sql para crear las tablas usuarios, cuentas, y transacciones.
 3. Iniciar el servidor local usando XAMPP.
 
 ## Autores
